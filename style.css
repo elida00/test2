@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(159, 191, 227);
+    margin: auto;
+    width: auto;
+    height: auto;
+
+
+
+}
+.one{
+    margin-left: 650px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+@media(max-width:1200px){
+    .one{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        -webkit-locale: "en";
+        display: block;
+
+    }
+}
+@media(max-width:500px){
+    .one{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        -webkit-locale: "en";
+display: block;
+    }
+}
